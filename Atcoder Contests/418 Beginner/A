@@ -1,0 +1,23 @@
+#include <bits/stdc++.h>
+using namespace std;
+void solve(){
+    int n;
+    cin>>n;
+    string s;
+    cin>>s;
+    if(n<3) cout<<"No";
+    else if(s[n-1]=='a'&& s[n-2]=='e' && s[n-3]=='t') cout<<"Yes";
+    else cout<<"No";
+}
+ 
+ 
+int main() {
+    
+    int t=1;
+    //cin>>t;
+    while(t--){
+        solve();
+        //cout<<endl;
+    }
+    return 0;
+}
